@@ -1,3 +1,9 @@
+//Código desenvolvido para a Disciplina de Sistemas Operacionais
+//Universidade Federal Fluminense - UFF
+//Computação - 5º período
+//Alunos: Silvia Miguêz, Raphael Martins e Raul Alvaro
+//Profº: Marcos Vinicius
+
 # include <windows.h>
 # include <iostream>
 #include <fstream>
@@ -43,7 +49,7 @@ int main()
                    ofs << x<<" ";
                    cout<<"x: "<< x<<endl;
                    cout<<"t: "<< t<<endl;
-                   cout<<"x1: "<<x1<<endl; //n�o identifica
+                   cout<<"x1: "<<x1<<endl; //não identifica
                }
             }else if((t>=97)and(t<=105))
             {
@@ -79,7 +85,7 @@ int main()
                    cout<<"x1: "<<x1<<endl;
                    ofs<<"[Mouse D] ";
                 break;
-                case 4: //bot�o do mouse
+                case 4: //botão do mouse
                    cout<<"x: MouseScroll"<<endl;
                    cout<<"t: "<< t<<endl;
                    cout<<"x1: "<<x1<<endl;
@@ -306,10 +312,10 @@ int main()
                    ofs<<"[/] ";
                 break;
                 case 219: //acento
-                   cout<<"x: �"<<endl;
+                   cout<<"x: ´"<<endl;
                    cout<<"t: "<< t<<endl;
                    cout<<"x1: "<<x1<<endl;
-                   ofs<<"[�] ";
+                   ofs<<"[´] ";
                 break;
                 case 220: //colchete direito
                    cout<<"x: ]"<<endl;
