@@ -1,7 +1,7 @@
 //Código desenvolvido para a Disciplina de Sistemas Operacionais
 //Universidade Federal Fluminense - UFF
 //Computação - 5º período
-//Alunos: Silvia Miguêz, Raphael Martins e Raul Alvaro
+//Alunos: Silvia, Raphael e Raul
 //Profº: Marcos Vinicius
 
 # include <windows.h>
@@ -373,3 +373,4 @@ int main()
     ofs.close(); //salva arquivo
     return 0; //retorna 0
 }
+
